@@ -6,11 +6,16 @@ def main():
     ]
     while True:
         try:
-            weird_date = input("Date: ")
-            weird_date = weird_date.replace(" ","/")
-            weird_date = weird_date.replace(",","")
+            weird_date = input("Date: ").strip()
+            if not "," in weird_date and not "/" in weird_date:
+                continue
+            weird_strip = weird_date.replace(" ","/")
+            weird_rep = weird_strip.replace(",","")
             # print(weird_date)
-            mm, dd, yyyy = weird_date.split("/")
+            mm, dd, yyyy = weird_rep.split("/")
+
+            if mm.isalpha() and (",") not in weird_date:
+                continue
             # print(f"{mm},{dd},{yyyy}")
 
             if mm.isdigit():
