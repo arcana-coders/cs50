@@ -1,4 +1,4 @@
-def main ():
+def get_gol ():
     goles = {}
 
     while True:
@@ -16,4 +16,9 @@ def main ():
             break
     return
 
-main ()
+def main ():
+    goles_dados = get_gol()
+    print (goles_dados)
+
+if __name__ == "__main__":
+    main ()
