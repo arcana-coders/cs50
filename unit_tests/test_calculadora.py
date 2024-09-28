@@ -1,5 +1,5 @@
 import pytest 
-from calculator import square
+from calculadora import square
 
 def test_positive():
     assert square (2) == 4
