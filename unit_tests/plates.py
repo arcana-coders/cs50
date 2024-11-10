@@ -1,6 +1,6 @@
 def main():
     plate = input("What do you want in your plate? ")
-    if is_valid == True:
+    if is_valid (plate) == True:
         print("Valid")
     else:
         print("Invalid")
