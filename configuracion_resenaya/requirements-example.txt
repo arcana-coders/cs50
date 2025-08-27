@@ -1,0 +1,60 @@
+# Requirements para proyecto de reseñas
+
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Web framework (opcional, para aplicaciones web)
+flask>=2.3.0
+flask-wtf>=1.1.0
+
+# Database (opcional)
+sqlite3  # Viene incluido con Python
+sqlalchemy>=2.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Text processing
+nltk>=3.8.0
+textblob>=0.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+black>=23.7.0
+flake8>=6.0.0
+pylint>=2.17.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Date and time handling
+python-dateutil>=2.8.0
+
+# File handling
+openpyxl>=3.1.0  # Para Excel
+PyPDF2>=3.0.0    # Para PDF
+
+# HTTP client
+httpx>=0.24.0
+
+# Validation
+validators>=0.20.0
+
+# CLI tools (opcional)
+click>=8.1.0
+
+# Logging
+loguru>=0.7.0
+
+# Configuration
+pyyaml>=6.0.0
+
+# Development tools
+jupyter>=1.0.0      # Para notebooks
+ipython>=8.14.0     # Shell mejorado
